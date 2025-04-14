@@ -20,6 +20,6 @@ jobs:
         cache: maven
     - name: Execute Test
       run: mvn clean test -Dsuite=suite -X
-      working-directory: DemoRestFramework/RestAssured
+      working-directory: RestAssured
 
       
