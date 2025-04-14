@@ -1,5 +1,4 @@
 name: API Test Framework
-
 on:
   push:
     branches: [ "master" ]
@@ -21,3 +20,6 @@ jobs:
         cache: maven
     - name: Execute Test
       run: mvn clean test -Dsuite=suite -X
+      working-directory: ./RestAssured
+
+      
