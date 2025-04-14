@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testsuite">
+
+  <test name="APITest">
+    <classes>
+      <class name="com.java.rest.Testing"></class>
+    </classes>
+  </test>
+</suite>
