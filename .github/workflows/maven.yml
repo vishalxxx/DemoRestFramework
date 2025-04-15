@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v4.6.2
       with:
         name: logs
-        path: Restassured/logs
+        path: Restassured/
         
           
         
