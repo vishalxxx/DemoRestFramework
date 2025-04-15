@@ -23,7 +23,7 @@ jobs:
     - name: Execute Test
       run: |
             mkdir -p logs
-            mvn clean test -Dsuite=suite -X
+            mvn clean test -Dsuite=suite -X | tee logs/maven.log
             
       working-directory: Restassured/
     - name: Upload a Build Artifact
